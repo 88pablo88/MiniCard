@@ -9,7 +9,7 @@ This project is an interactive card built with **HTML, SCSS and jQuery**, which 
 Open a terminal an run:
 
 ```sh
-git https://github.com/88pablo88/MiniCard.git
+git clone https://github.com/88pablo88/MiniCard.git
 
 cd MiniCard
 ```
