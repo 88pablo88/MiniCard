@@ -4,26 +4,30 @@ This project is an interactive card built with **HTML, SCSS and jQuery**, which 
 
 ## Installation and local set up
 
-### 1. Clone the repository  
-Abre una terminal y ejecuta:
-```sh
-git clone https://github.com/tu-usuario/tu-repo.git
+### 1. Clone the repository
 
-cd tu-repo
+Abre una terminal y ejecuta:
+
+```sh
+git https://github.com/88pablo88/MiniCard.git
+
+cd MiniCard
 ```
 
 ### 2. Install SASS
+
 ```sh
 npm install -g sass
 ```
 
 ### 3. Compile SASS
+
 ```sh
 sass styles.scss styles.css
 ```
 
 ### 4. Enable the SASS compiler for each change that is executed in the styles.scss file.
+
 ```sh
 sass --watch styles.scss styles.css
 ```
-
