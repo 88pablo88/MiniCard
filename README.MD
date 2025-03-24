@@ -4,7 +4,7 @@ This project is an interactive card built with **HTML, SCSS and jQuery**, which 
 
 ## Installation and local set up
 
-### 1️. Clone the repository  
+### 1. Clone the repository  
 Abre una terminal y ejecuta:
 ```sh
 git clone https://github.com/tu-usuario/tu-repo.git
