@@ -6,7 +6,7 @@ This project is an interactive card built with **HTML, SCSS and jQuery**, which 
 
 ### 1. Clone the repository
 
-Abre una terminal y ejecuta:
+Open a terminal an run:
 
 ```sh
 git https://github.com/88pablo88/MiniCard.git
