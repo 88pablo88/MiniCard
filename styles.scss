@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    padding: 50px;
+}
+
+.card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 264px;
+    height: 264px;
+    padding: 16px;
+    border: 0.8px solid #DBDBDB;
+    border-radius: 8px;
+    background-color: white;
+
+    &_photo{
+        width: 232px;
+        height: 110px;
+        background-image: url("/assets/Logo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        text-align: center;
+
+        &__title {
+            font-size: 20px;
+            font-weight: 700;   
+        }
+    
+        &__description {
+            font-size: 16px;
+        }
+
+    }
+
+
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 143px;
+        height: 38px;
+        color: #000000;
+        font-weight: 600;   
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        padding: 16px 8px;
+
+        &--green {
+            background-color: #7AB800 ;
+        }
+
+        &--red {
+            background-color: #CC292B;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 162px;
+        height: 192px;
+        padding: 8px;
+        gap: 8px;
+
+        &_photo {
+            width: 146px;
+            height: 77px;
+            background-image: url("/assets/Logo_mobile.png");
+        }
+
+        &__info {
+
+
+            &__title {
+                font-size: 12px;
+            }
+
+            &__description {
+                font-size: 12px;
+            }
+        }
+
+        &__button {
+            width: 146px;
+            height: 28px;
+            font-size: 14px;
+            padding: 4px 24.5px;
+        }
+    }
+}
